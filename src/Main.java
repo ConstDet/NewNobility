@@ -10,7 +10,7 @@ public class Main {
         list.add(new Person("Mikhail", "Golenishchev-Kutuzov-Smolensky", 278));
         list.add(new Person("Alexander", "Pushkin", 224));
         System.out.println(list);
-        Collections.sort(list, new PersonComparator());
+        Collections.sort(list, new PersonComparator(2));
         System.out.println(list);
     }
 }
